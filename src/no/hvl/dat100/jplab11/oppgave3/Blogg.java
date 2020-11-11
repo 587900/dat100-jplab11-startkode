@@ -56,6 +56,7 @@ public class Blogg {
 		
 	}
 	
+	@Override
 	public String toString() {
 		String ret = getAntall() + "\n";
 		
