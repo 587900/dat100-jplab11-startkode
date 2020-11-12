@@ -32,7 +32,7 @@ public abstract class Innlegg {
 	
 	@Override
 	public String toString() {
-		return id + "\n" + bruker + "\n" + dato + "\n" + likes + "\n";				
+		return id + "\n" + bruker + "\n" + dato + "\n" + likes + "\n";
 	}
 	
 	// Metoden nedenfor er kun for valgfri oppgave 6
