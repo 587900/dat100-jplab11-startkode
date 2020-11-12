@@ -4,7 +4,7 @@ import no.hvl.dat100.jplab11.oppgave1.*;
 
 public class Tekst extends Innlegg {
 
-private String tekst;
+	private String tekst;
 	
 	public Tekst(int id, String bruker, String dato, String tekst) { this(id, bruker, dato, 0, tekst); }
 	public Tekst(int id, String bruker, String dato, int likes, String tekst) {

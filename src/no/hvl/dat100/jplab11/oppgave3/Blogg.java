@@ -5,8 +5,8 @@ import no.hvl.dat100.jplab11.oppgave2.Tekst;
 
 public class Blogg {
 
-	Innlegg[] innleggtabell;
-	int nesteledig;
+	private Innlegg[] innleggtabell;
+	private int nesteledig;
 
 	public Blogg() { this(20); }	//start på 20, i følge oppgåve
 
